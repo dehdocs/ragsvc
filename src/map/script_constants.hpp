@@ -1913,7 +1913,7 @@
 	export_constant(SC_PERIOD_RECEIVEITEM_2ND);
 	export_constant(SC_PERIOD_PLUSEXP_2ND);
 	
-	// Sky Emperor
+	/* Sky Emperor */
 	export_constant(SC_RISING_SUN);
 	export_constant(SC_NOON_SUN);
 	export_constant(SC_SUNSET_SUN);
@@ -1923,7 +1923,7 @@
 	export_constant(SC_STAR_BURST);
 	export_constant(SC_SKY_ENCHANT);
 	
-	// Soul Ascetic
+	/* Soul Ascetic */
 	export_constant(SC_TALISMAN_OF_PROTECTION);
 	export_constant(SC_TALISMAN_OF_WARRIOR);
 	export_constant(SC_TALISMAN_OF_MAGICIAN);
@@ -1936,13 +1936,13 @@
 	export_constant(SC_T_FIFTH_GOD);
 	export_constant(SC_HEAVEN_AND_EARTH);
 
-	// Shinkiro/Shiranui
+	/* Shinkiro/Shiranui */
 	export_constant(SC_SHADOW_CLOCK);
 	export_constant(SC_SHINKIROU_CALL);
 	export_constant(SC_NIGHTMARE);
 	export_constant(SC_SBUNSHIN);
 
-	// Spirit Handler
+	/* Spirit Handler */
 	export_constant(SC_HOGOGONG);
 	export_constant(SC_MARINE_FESTIVAL);
 	export_constant(SC_SANDY_FESTIVAL);

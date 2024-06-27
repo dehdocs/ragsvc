@@ -1,0 +1,71 @@
+#docker compose for run bubble
+version: '3.7'
+services:
+  mariadb:
+    image: mariadb
+    container_name: mariadb
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: bubble
+      MYSQL_PASSWORD: bubble
+      MYSQL_DATABASE: bubble
+      MARIADB_ROOT_PASSWORD: q1w2e3
+    volumes:
+      - db:/var/lib/mysql
+      - ./sql-files:/home/db
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1"]
+    network_mode: host    
+  login:
+    image: bubble:1.0.3
+    container_name: login
+    restart: always
+    entrypoint: bash -c /home/bubble/login-server
+    volumes: 
+      - ./conf/import-tmpl:/home/bubble/conf/import
+      - ./db:/home/bubble/db
+    depends_on:
+      - mariadb
+    network_mode: host
+  char:
+    image: bubble:1.0.3
+    container_name: char
+    restart: always
+    entrypoint: bash -c /home/bubble/char-server
+    volumes: 
+      - ./conf/import-tmpl:/home/bubble/conf/import
+      - ./npc:/home/bubble/npc
+      - ./db:/home/bubble/db
+    depends_on:
+      - mariadb
+    network_mode: host
+  map:
+    image: bubble:1.0.3
+    container_name: map
+    restart: always
+    entrypoint: bash -c /home/bubble/map-server
+    volumes: 
+      - ./conf/import-tmpl:/home/bubble/conf/import
+      - ./npc:/home/bubble/npc
+      - ./db:/home/bubble/db
+    depends_on:
+      - mariadb
+    network_mode: host
+  web:
+    image: bubble:1.0.3
+    container_name: api
+    restart: always
+    entrypoint: bash -c /home/bubble/web-server
+    volumes:
+      - ./conf/import-tmpl:/home/bubble/conf/import
+      - ./npc:/home/bubble/npc
+      - ./db:/home/bubble/db
+    depends_on:
+      - mariadb
+
+    network_mode: host
+volumes:
+  db:
