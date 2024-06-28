@@ -1,5 +1,5 @@
 # This file is a part of rAthena.
-#   Copyright(C) 2021 rAthena Development Team
+#   Copyright(C) 2023 rAthena Development Team
 #   https://rathena.org - https://github.com/rathena
 #
 # This program is free software: you can redistribute it and/or modify
@@ -88,10 +88,14 @@ Header:
   Type: ITEM_DB
   Version: 3
 
-Footer:
-  Imports:
-  - Path: db/pre-re/item_db.yml
-    Mode: Prerenewal
-  - Path: db/re/item_db.yml
-    Mode: Renewal
-  - Path: db/import/item_db.yml
+Body:
+  - Id: 30050
+    AegisName: Zeny
+    Name: Zeny
+    Type: Etc
+    Weight: 1
+  - Id: 30051
+    AegisName: Cash
+    Name: Cash
+    Type: Etc
+    Weight: 1

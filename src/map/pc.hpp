@@ -942,6 +942,10 @@ public:
 	s_macro_detect macro_detect;
 
 	std::vector<uint32> party_booking_requests;
+
+	///Extended Vending system [JinYuichi]
+	unsigned short vend_loot;
+	int vend_lvl;
 };
 
 extern struct eri *pc_sc_display_ers; /// Player's SC display table

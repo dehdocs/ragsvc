@@ -20,7 +20,7 @@ services:
       test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1"]
     network_mode: host    
   login:
-    image: bubble:1.0.3
+    image: bubble:1.0.5
     container_name: login
     restart: always
     entrypoint: bash -c /home/bubble/login-server
@@ -31,7 +31,7 @@ services:
       - mariadb
     network_mode: host
   char:
-    image: bubble:1.0.3
+    image: bubble:1.0.5
     container_name: char
     restart: always
     entrypoint: bash -c /home/bubble/char-server
@@ -43,7 +43,7 @@ services:
       - mariadb
     network_mode: host
   map:
-    image: bubble:1.0.3
+    image: bubble:1.0.5
     container_name: map
     restart: always
     entrypoint: bash -c /home/bubble/map-server
@@ -55,7 +55,7 @@ services:
       - mariadb
     network_mode: host
   web:
-    image: bubble:1.0.3
+    image: bubble:1.0.5
     container_name: api
     restart: always
     entrypoint: bash -c /home/bubble/web-server

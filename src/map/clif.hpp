@@ -1344,7 +1344,7 @@ enum clif_colors {
 extern unsigned long color_table[COLOR_MAX];
 
 void clif_channel_msg(struct Channel *channel, const char *msg, unsigned long color);
-
+int clif_vend(struct map_session_data *sd, int skill_lv);
 #define clif_menuskill_clear(sd) (sd)->menuskill_id = (sd)->menuskill_val = (sd)->menuskill_val2 = 0;
 
 void clif_ranklist(map_session_data *sd, int16 rankingType);
