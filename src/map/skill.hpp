@@ -43,6 +43,7 @@ class status_change;
 #define SKILL_ALTDMG_FLAG 0x10
 /// Make skill ignore requirement consumption [Muh]
 #define SKILL_NOCONSUME_REQ 0x20
+#define UNIT_NOCONSUME_AMMO 0x40
 
 /// Constants to identify a skill's nk value (damage properties)
 /// The NK value applies only to non INF_GROUND_SKILL skills
@@ -2700,7 +2701,10 @@ enum e_skill_unit_id : uint16 {
 	UNT_GD_SOULCOLD = 0xc3,
 	UNT_GD_HAWKEYES = 0xc4,
 
-	UNT_MAX = 0x190
+	UNT_MAX = 0x190,
+	
+	UNT_KUNAIKAITEN,
+	UNT_STAR_BURST
 };
 
 /**

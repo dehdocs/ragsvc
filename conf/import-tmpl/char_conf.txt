@@ -1,0 +1,11 @@
+userid: bubble
+passwd: d3hd3hd3h
+server_name: Bubble
+wisp_server_name: Bubble
+login_ip: 192.168.3.115
+bind_ip: 192.168.3.115
+login_port: 6900
+char_ip: 192.168.3.115
+char_port: 6121
+pincode_enabled: no
+start_zeny: 10000

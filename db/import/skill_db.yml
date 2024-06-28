@@ -6,3 +6,4 @@ Header:
 Footer:
   Imports:
   - Path: db/import/ep19/skill_db.yml
+  - Path: db/import/expanded/skill_db.yml

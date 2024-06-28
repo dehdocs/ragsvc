@@ -1,0 +1,6 @@
+userid: bubble
+passwd: d3hd3hd3h
+char_ip: 192.168.3.115
+bind_ip: 192.168.3.115
+char_port: 6121
+map_ip: 192.168.3.115

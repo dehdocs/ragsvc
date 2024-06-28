@@ -1,0 +1,5 @@
+bind_ip: 192.168.3.115
+login_port: 6900
+new_account: no
+date_format: %d-%m-%Y %H:%M:%S
+use_MD5_passwords: no

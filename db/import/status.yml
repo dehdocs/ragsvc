@@ -1,0 +1,7 @@
+Header:
+  Type: STATUS_DB
+  Version: 3
+
+Footer:
+  Imports:
+  - Path: db/import/expanded/status.yml
