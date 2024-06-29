@@ -6,4 +6,5 @@ Header:
 Footer:
   Imports:
   - Path: db/import/ep19/item_db.yml
+  - Path: db/import/bubble/item_db.yml
   - Path: db/import/item_db_ex.yml

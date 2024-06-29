@@ -1,9 +1,10 @@
 
 Header:
   Type: MOB_DB
-  Version: 3
+  Version: 4
 
 Footer:
   Imports:
   # - Path: db/import/ep17/mob_db.yml
   - Path: db/import/ep19/mob_db.yml
+  - Path: db/import/bubble/mob_db.yml

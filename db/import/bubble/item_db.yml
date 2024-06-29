@@ -1,0 +1,50 @@
+Header:
+  Type: ITEM_DB
+  Version: 3
+
+Body:
+  - Id: 9000000
+    AegisName: Easy_Biolab_Crystal
+    Name: Easy Biolab Crystal
+    Type: Etc
+    Weight: 0
+  - Id: 9000001
+    AegisName: Intermediate_Biolab_Crystal
+    Name: Intermediate Biolab Crystal
+    Type: Etc
+    Weight: 0
+  - Id: 9000002
+    AegisName: Hard_Biolab_Crystal
+    Name: Hard Biolab Crystal
+    Type: Etc
+    Weight: 0
+  - Id: 9000003
+    AegisName: Extreme_Biolab_Crystal
+    Name: Extreme Biolab Crystal
+    Type: Etc
+    Weight: 0
+  - Id: 9000004
+    AegisName: Savage_Biolab_Crystal
+    Name: Savage Biolab Crystal
+    Type: Etc
+    Weight: 0
+  - Id: 9000005
+    AegisName: Easy_Cheffenia_Coin
+    Name: Easy Cheffenia Coin
+    Type: Etc
+    Weight: 0
+  - Id: 9000006
+    AegisName: Intermediate_Cheffenia_Coin
+    Name: Intermediate Cheffenia Coin
+    Type: Etc
+    Weight: 0
+  - Id: 9000007
+    AegisName: Hard_Cheffenia_Coin
+    Name: Hard Cheffenia Coin
+    Type: Etc
+    Weight: 0
+  - Id: 9000008
+    AegisName: Savage_Cheffenia_Coin
+    Name: Savage Cheffenia Coin
+    Type: Etc
+    Weight: 0

@@ -11033,6 +11033,7 @@
 	export_constant(UNT_SWIFTTRAP);
 	export_constant(UNT_FLAMETRAP);
 	export_constant(UNT_TWINKLING_GALAXY);
+	export_constant(UNT_STAR_BURST);
 	export_constant(UNT_STAR_CANNON);
 	export_constant(UNT_GRENADES_DROPPING);
 	export_constant(UNT_FUUMASHOUAKU);

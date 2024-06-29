@@ -1,0 +1,75 @@
+Header:
+  Type: MOB_DB
+  Version: 4
+
+Body:
+  - Id: 30001
+    AegisName: EASY_KTULLANUX
+    Name: Easy Ktullanux
+    Level: 200
+    Hp: 26260000
+    BaseExp: 0
+    JobExp: 0
+    MvpExp: 0
+    Attack: 4800
+    Attack2: 3484
+    Defense: 168
+    MagicDefense: 101
+    Str: 110
+    Agi: 163
+    Vit: 40
+    Int: 162
+    Dex: 275
+    Luk: 145
+    AttackRange: 3
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Brute
+    Element: Water
+    ElementLevel: 4
+    WalkSpeed: 300
+    AttackDelay: 332
+    AttackMotion: 840
+    ClientAttackMotion: 660
+    DamageMotion: 216
+    DamageTaken: 10
+    Ai: 21
+    Class: Boss
+    Modes:
+      Mvp: true
+  - Id: 30002
+    AegisName: EASY_DARK_SNAKE_LORD
+    Name: Evil Snake Lord
+    JapaneseName: Dark Snake Lord
+    Level: 105
+    Hp: 1101000
+    BaseExp: 1206
+    JobExp: 1105
+    MvpExp: 603
+    Attack: 2882
+    Attack2: 1986
+    Defense: 314
+    MagicDefense: 185
+    Str: 122
+    Agi: 172
+    Vit: 107
+    Int: 135
+    Dex: 235
+    Luk: 88
+    AttackRange: 3
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Brute
+    Element: Ghost
+    ElementLevel: 3
+    WalkSpeed: 200
+    AttackDelay: 588
+    AttackMotion: 816
+    ClientAttackMotion: 288
+    DamageMotion: 420
+    Ai: 21
+    Class: Boss
+    Modes:
+      Mvp: true

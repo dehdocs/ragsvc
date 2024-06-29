@@ -1,0 +1,6 @@
+Header:
+  Type: MOB_AVAIL_DB
+  Version: 1
+Footer:
+  Imports:
+  - Path: db/import/bubble/mob_avail.yml

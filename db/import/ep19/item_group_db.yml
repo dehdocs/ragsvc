@@ -1,240 +1,353 @@
 
 Header:
   Type: ITEM_GROUP_DB
-  Version: 2
+  Version: 3
 
 Body:
-  - Group: D_GW_EXTRACTOR  # todo
+  - Group: D_GW_EXTRACTOR
     SubGroups:
       - SubGroup: 1
-        List: # todo the amount is randomly given from 1-4 (the rates seem the same). The current rates are randoms (no data).
-          - Item: EP19_D_P_Ore   # 1001029
+        List:
+          - Index: 0
+            Item: EP19_D_P_Ore
             Rate: 5
-          - Item: EP19_N_P_Ore   # 1001030
+          - Index: 1
+            Item: EP19_N_P_Ore
             Rate: 3
-          - Item: EP19_D_P_Crystal   # 1001031
+          - Index: 2
+            Item: EP19_D_P_Crystal
             Rate: 2
-          - Item: EP19_N_P_Crystal   # 1001032
+          - Index: 3
+            Item: EP19_N_P_Crystal
             Rate: 1
-          - Item: EP19_D_P_Stone   # 1001033
+          - Index: 4
+            Item: EP19_D_P_Stone
             Rate: 1
-          - Item: EP19_S_F_1_Extract   # 1001034
+          - Index: 5
+            Item: EP19_S_F_1_Extract
             Rate: 1
-          - Item: EP19_S_F_2_Extract   # 1001035
+          - Index: 6
+            Item: EP19_S_F_2_Extract
             Rate: 1
-          - Item: EP19_S_F_3_Extract   # 1001036
+          - Index: 7
+            Item: EP19_S_F_3_Extract
             Rate: 1
-          - Item: EP19_Gla_Extract   # 1001037
+          - Index: 8
+            Item: EP19_Gla_Extract
             Rate: 1
-          - Item: Snow_F_Ore   # 1000811
+          - Index: 9
+            Item: Snow_F_Ore
             Rate: 12
-          - Item: Snow_F_Stone1   # 1000812
+          - Index: 10
+            Item: Snow_F_Stone1
             Rate: 5
-          - Item: Snow_F_Stone2   # 1000813
+          - Index: 11
+            Item: Snow_F_Stone2
             Rate: 3
-          - Item: Snow_F_Stone3   # 1000814
+          - Index: 12
+            Item: Snow_F_Stone3
             Rate: 1
   - Group: ICE_F_STONE_BOX2
     SubGroups:
       - SubGroup: 1
         List:
-          - Item: Ice_F_Stone_Str
+          - Index: 1
+            Item: Ice_F_Stone_Str
             Rate: 1
-          - Item: Ice_F_Stone_Dex
+          - Index: 2
+            Item: Ice_F_Stone_Dex
             Rate: 1
-          - Item: Ice_F_Stone_Agi
+          - Index: 3
+            Item: Ice_F_Stone_Agi
             Rate: 1
-          - Item: Ice_F_Stone_Int
+          - Index: 4
+            Item: Ice_F_Stone_Int
             Rate: 1
-          - Item: Ice_F_Stone_Vit
+          - Index: 5
+            Item: Ice_F_Stone_Vit
             Rate: 1
-          - Item: Ice_F_Stone_luk
+          - Index: 6
+            Item: Ice_F_Stone_luk
             Rate: 1
-          - Item: Ice_F_Stone_Def
+          - Index: 7
+            Item: Ice_F_Stone_Def
             Rate: 1
-          - Item: Ice_F_Stone_Mdef
+          - Index: 8
+            Item: Ice_F_Stone_Mdef
             Rate: 1
-          - Item: Ice_F_Stone_Ran
+          - Index: 9
+            Item: Ice_F_Stone_Ran
             Rate: 1
-          - Item: Ice_F_Stone_War
+          - Index: 10
+            Item: Ice_F_Stone_War
             Rate: 1
-          - Item: Ice_F_Stone_Mag
+          - Index: 11
+            Item: Ice_F_Stone_Mag
             Rate: 1
-          - Item: Ice_F_Stone_R_Reject
+          - Index: 12
+            Item: Ice_F_Stone_R_Reject
             Rate: 1
-          - Item: Ice_F_Stone_Force
+          - Index: 13
+            Item: Ice_F_Stone_Force
             Rate: 1
-          - Item: Ice_F_Stone_S_Delay
+          - Index: 14
+            Item: Ice_F_Stone_S_Delay
             Rate: 1
-          - Item: Ice_F_Stone_Skill_1
+          - Index: 15
+            Item: Ice_F_Stone_Skill_1
             Rate: 1
-          - Item: Ice_F_Stone_Skill_2
+          - Index: 0
+            Item: Ice_F_Stone_Skill_2
             Rate: 1
-          - Item: Ice_F_Stone_Skill_3
+          - Index: 16
+            Item: Ice_F_Stone_Skill_3
             Rate: 1
-          - Item: Ice_F_Stone_Skill_4
+          - Index: 17
+            Item: Ice_F_Stone_Skill_4
             Rate: 1
-          - Item: Ice_F_Stone_Skill_5
+          - Index: 18
+            Item: Ice_F_Stone_Skill_5
             Rate: 1
-          - Item: Ice_F_Stone_Skill_6
+          - Index: 19
+            Item: Ice_F_Stone_Skill_6
             Rate: 1
-          - Item: Ice_F_Stone_Skill_7
+          - Index: 20
+            Item: Ice_F_Stone_Skill_7
             Rate: 1
-          - Item: Ice_F_Stone_Skill_8
+          - Index: 21
+            Item: Ice_F_Stone_Skill_8
             Rate: 1
-          - Item: Ice_F_Stone_Skill_9
+          - Index: 22
+            Item: Ice_F_Stone_Skill_9
             Rate: 1
-          - Item: Ice_F_Stone_Skill_10
+          - Index: 23
+            Item: Ice_F_Stone_Skill_10
             Rate: 1
-          - Item: Ice_F_Stone_Skill_11
+          - Index: 24
+            Item: Ice_F_Stone_Skill_11
             Rate: 1
-          - Item: Ice_F_Stone_Skill_12
+          - Index: 25
+            Item: Ice_F_Stone_Skill_12
             Rate: 1
-          - Item: Ice_F_Stone_Skill_13
+          - Index: 26
+            Item: Ice_F_Stone_Skill_13
             Rate: 1
-          - Item: Ice_F_Stone_Skill_14
+          - Index: 27
+            Item: Ice_F_Stone_Skill_14
             Rate: 1
-          - Item: Ice_F_Stone_Skill_15
+          - Index: 28
+            Item: Ice_F_Stone_Skill_15
             Rate: 1
-          - Item: Ice_F_Stone_Skill_16
+          - Index: 29
+            Item: Ice_F_Stone_Skill_16
             Rate: 1
-          - Item: Ice_F_Stone_Skill_17
+          - Index: 30
+            Item: Ice_F_Stone_Skill_17
             Rate: 1
-          - Item: Ice_F_Stone_Skill_18
+          - Index: 31
+            Item: Ice_F_Stone_Skill_18
             Rate: 1
-          - Item: Ice_F_Stone_Skill_19
+          - Index: 32
+            Item: Ice_F_Stone_Skill_19
             Rate: 1
-          - Item: Ice_F_Stone_Skill_20
+          - Index: 33
+            Item: Ice_F_Stone_Skill_20
             Rate: 1
-          - Item: Ice_F_Stone_Skill_21
+          - Index: 34
+            Item: Ice_F_Stone_Skill_21
             Rate: 1
-          - Item: Ice_F_Stone_Skill_22
+          - Index: 35
+            Item: Ice_F_Stone_Skill_22
             Rate: 1
-          - Item: Ice_F_Stone_Skill_23
+          - Index: 36
+            Item: Ice_F_Stone_Skill_23
             Rate: 1
-          - Item: Ice_F_Stone_Skill_24
+          - Index: 37
+            Item: Ice_F_Stone_Skill_24
             Rate: 1
-          - Item: Ice_F_Stone_Skill_25
+          - Index: 38
+            Item: Ice_F_Stone_Skill_25
             Rate: 1
-          - Item: Ice_F_Stone_Skill_26
+          - Index: 39
+            Item: Ice_F_Stone_Skill_26
             Rate: 1
-          - Item: Ice_F_Stone_Skill_27
+          - Index: 40
+            Item: Ice_F_Stone_Skill_27
             Rate: 1
-          - Item: Ice_F_Stone_Skill_28
+          - Index: 41
+            Item: Ice_F_Stone_Skill_28
             Rate: 1
-          - Item: Ice_F_Stone_Skill_29
+          - Index: 42
+            Item: Ice_F_Stone_Skill_29
             Rate: 1
-          - Item: Ice_F_Stone_Skill_30
+          - Index: 43
+            Item: Ice_F_Stone_Skill_30
             Rate: 1
-          - Item: Ice_F_Stone_Skill_31
+          - Index: 44
+            Item: Ice_F_Stone_Skill_31
             Rate: 1
-          - Item: Ice_F_Stone_Skill_32
+          - Index: 45
+            Item: Ice_F_Stone_Skill_32
             Rate: 1
-          - Item: Ice_F_Stone_Skill_33
+          - Index: 46
+            Item: Ice_F_Stone_Skill_33
             Rate: 1
-          - Item: Ice_F_Stone_Skill_34
+          - Index: 47
+            Item: Ice_F_Stone_Skill_34
             Rate: 1
-          - Item: Ice_F_Stone_Skill_35
+          - Index: 48
+            Item: Ice_F_Stone_Skill_35
             Rate: 1
-          - Item: Ice_F_Stone_Skill_36
+          - Index: 49
+            Item: Ice_F_Stone_Skill_36
             Rate: 1
-          - Item: Ice_F_Stone_Skill_37
+          - Index: 50
+            Item: Ice_F_Stone_Skill_37
             Rate: 1
-          - Item: Ice_F_Stone_Skill_38
+          - Index: 51
+            Item: Ice_F_Stone_Skill_38
             Rate: 1
-          - Item: Ice_F_Stone_Skill_39
+          - Index: 52
+            Item: Ice_F_Stone_Skill_39
             Rate: 1
-          - Item: Ice_F_Stone_Skill_40
+          - Index: 53
+            Item: Ice_F_Stone_Skill_40
             Rate: 1
-          - Item: Ice_F_Stone_Skill_41
+          - Index: 54
+            Item: Ice_F_Stone_Skill_41
             Rate: 1
-          - Item: Ice_F_Stone_Skill_42
+          - Index: 55
+            Item: Ice_F_Stone_Skill_42
             Rate: 1
-          - Item: Ice_F_Stone_Skill_43
+          - Index: 56
+            Item: Ice_F_Stone_Skill_43
             Rate: 1
-          - Item: Ice_F_Stone_Skill_44
+          - Index: 57
+            Item: Ice_F_Stone_Skill_44
             Rate: 1
-          - Item: Ice_F_Stone_Skill_45
+          - Index: 58
+            Item: Ice_F_Stone_Skill_45
             Rate: 1
-          - Item: Ice_F_Stone_Skill_46
+          - Index: 59
+            Item: Ice_F_Stone_Skill_46
             Rate: 1
-          - Item: Ice_F_Stone_Skill_47
+          - Index: 60
+            Item: Ice_F_Stone_Skill_47
             Rate: 1
-          - Item: Ice_F_Stone_Skill_48
+          - Index: 61
+            Item: Ice_F_Stone_Skill_48
             Rate: 1
-          - Item: Ice_F_Stone_Skill_49
+          - Index: 62
+            Item: Ice_F_Stone_Skill_49
             Rate: 1
-          - Item: Ice_F_Stone_Skill_50
+          - Index: 63
+            Item: Ice_F_Stone_Skill_50
             Rate: 1
-          - Item: Ice_F_Stone_Skill_51
+          - Index: 64
+            Item: Ice_F_Stone_Skill_51
             Rate: 1
-          - Item: Ice_F_Stone_Skill_52
+          - Index: 65
+            Item: Ice_F_Stone_Skill_52
             Rate: 1
-          - Item: Ice_F_Stone_Skill_53
+          - Index: 66
+            Item: Ice_F_Stone_Skill_53
             Rate: 1
-          - Item: Ice_F_Stone_Skill_54
+          - Index: 67
+            Item: Ice_F_Stone_Skill_54
             Rate: 1
-          - Item: Ice_F_Stone_Speed
+          - Index: 68
+            Item: Ice_F_Stone_Speed
             Rate: 1
-          - Item: Ice_F_Stone_Caster
+          - Index: 69
+            Item: Ice_F_Stone_Caster
             Rate: 1
-          - Item: Ice_F_Stone_Critical
+          - Index: 70
+            Item: Ice_F_Stone_Critical
             Rate: 1
-          - Item: Ice_F_Stone_Guide
+          - Index: 71
+            Item: Ice_F_Stone_Guide
             Rate: 1
-          - Item: Ice_F_Stone_Above
+          - Index: 72
+            Item: Ice_F_Stone_Above
             Rate: 1
-          - Item: Ice_F_Stone_P_Full
+          - Index: 73
+            Item: Ice_F_Stone_P_Full
             Rate: 1
-          - Item: Ice_F_Stone_M_Counter
+          - Index: 74
+            Item: Ice_F_Stone_M_Counter
             Rate: 1
-          - Item: Ice_F_Stone_Hp
+          - Index: 75
+            Item: Ice_F_Stone_Hp
             Rate: 1
-          - Item: Ice_F_Stone_Sp
+          - Index: 76
+            Item: Ice_F_Stone_Sp
             Rate: 1
-          - Item: Ice_F_Stone_Heal
+          - Index: 77
+            Item: Ice_F_Stone_Heal
             Rate: 1
-          - Item: Ice_F_Stone_Robust
+          - Index: 78
+            Item: Ice_F_Stone_Robust
             Rate: 1
-          - Item: Ice_F_Stone_F_Cast
+          - Index: 79
+            Item: Ice_F_Stone_F_Cast
             Rate: 1
-          - Item: Ice_F_Stone_M_F
+          - Index: 80
+            Item: Ice_F_Stone_M_F
             Rate: 1
-          - Item: Ice_F_Stone_P_F
+          - Index: 81
+            Item: Ice_F_Stone_P_F
             Rate: 1
-          - Item: Ice_F_Stone_Un_Vit
+          - Index: 82
+            Item: Ice_F_Stone_Un_Vit
             Rate: 1
-          - Item: Ice_F_Stone_Sp_Int
+          - Index: 83
+            Item: Ice_F_Stone_Sp_Int
             Rate: 1
-          - Item: Ice_F_Stone_Fi_Dex
+          - Index: 84
+            Item: Ice_F_Stone_Fi_Dex
             Rate: 1
-          - Item: Ice_F_Stone_Ov_Str
+          - Index: 85
+            Item: Ice_F_Stone_Ov_Str
             Rate: 1
-          - Item: Ice_F_Stone_Fa_Agi
+          - Index: 86
+            Item: Ice_F_Stone_Fa_Agi
             Rate: 1
-          - Item: Ice_F_Stone_Lu_Luk
+          - Index: 87
+            Item: Ice_F_Stone_Lu_Luk
             Rate: 1
-          - Item: Ice_F_Stone_A_Delay
+          - Index: 88
+            Item: Ice_F_Stone_A_Delay
             Rate: 1
-          - Item: Ice_F_Stone_E_Archer
+          - Index: 89
+            Item: Ice_F_Stone_E_Archer
             Rate: 1
-          - Item: Ice_F_Stone_Fatal
+          - Index: 90
+            Item: Ice_F_Stone_Fatal
             Rate: 1
-          - Item: Ice_F_Stone_F_Spirit
+          - Index: 91
+            Item: Ice_F_Stone_F_Spirit
             Rate: 1
-          - Item: Ice_F_Stone_Spell
+          - Index: 92
+            Item: Ice_F_Stone_Spell
             Rate: 1
-          - Item: Ice_F_Stone_HealHP
+          - Index: 93
+            Item: Ice_F_Stone_HealHP
             Rate: 1
-          - Item: Ice_F_Stone_HealSP
+          - Index: 94
+            Item: Ice_F_Stone_HealSP
             Rate: 1
-          - Item: Ice_F_Stone_Life
+          - Index: 95
+            Item: Ice_F_Stone_Life
             Rate: 1
-          - Item: Ice_F_Stone_Soul
+          - Index: 96
+            Item: Ice_F_Stone_Soul
             Rate: 1
-          - Item: Ice_F_Stone_M_Heal
+          - Index: 97
+            Item: Ice_F_Stone_M_Heal
             Rate: 1
-          - Item: Ice_F_Stone_M_Soul
+          - Index: 98
+            Item: Ice_F_Stone_M_Soul
             Rate: 1
-          - Item: Ice_F_Stone_A_Force
+          - Index: 99
+            Item: Ice_F_Stone_A_Force
             Rate: 1

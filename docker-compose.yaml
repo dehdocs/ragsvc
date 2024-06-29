@@ -25,7 +25,7 @@ services:
     restart: always
     entrypoint: bash -c /home/bubble/login-server
     volumes: 
-      - ./conf/import-tmpl:/home/bubble/conf/import
+      - ./conf:/home/bubble/conf
       - ./db:/home/bubble/db
     depends_on:
       - mariadb
@@ -36,7 +36,7 @@ services:
     restart: always
     entrypoint: bash -c /home/bubble/char-server
     volumes: 
-      - ./conf/import-tmpl:/home/bubble/conf/import
+      - ./conf:/home/bubble/conf
       - ./npc:/home/bubble/npc
       - ./db:/home/bubble/db
     depends_on:
@@ -48,7 +48,7 @@ services:
     restart: always
     entrypoint: bash -c /home/bubble/map-server
     volumes: 
-      - ./conf/import-tmpl:/home/bubble/conf/import
+      - ./conf:/home/bubble/conf
       - ./npc:/home/bubble/npc
       - ./db:/home/bubble/db
     depends_on:
@@ -60,7 +60,7 @@ services:
     restart: always
     entrypoint: bash -c /home/bubble/web-server
     volumes:
-      - ./conf/import-tmpl:/home/bubble/conf/import
+      - ./conf:/home/bubble/conf
       - ./npc:/home/bubble/npc
       - ./db:/home/bubble/db
     depends_on:
