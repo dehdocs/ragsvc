@@ -1,0 +1,34 @@
+userid: s1
+passwd: p1
+server_name: rAthena
+
+login_ip: 192.168.3.184
+login_port: 6900
+
+char_ip: 192.168.3.184
+char_port: 6121
+
+char_maintenance: 0
+max_connect_user: -1
+
+start_point: iz_int,18,26:iz_int01,18,26:iz_int02,18,26:iz_int03,18,26:iz_int04,18,26
+start_point_pre: new_1-1,53,111:new_2-1,53,111:new_3-1,53,111:new_4-1,53,111:new_5-1,53,111
+start_point_doram: lasa_fild01,48,297
+
+start_items: 1201,1,2:2301,1,16:23484,1,0
+start_items_pre: 1201,1,2:2301,1,16
+start_items_doram: 1681,1,2:2301,1,16
+
+start_zeny: 0
+
+guild_exp_rate: 100
+
+pincode_enabled: no
+
+//===================================
+// RODEX
+//===================================
+mail_return_days: 15
+mail_delete_days: 15
+mail_retrieve: yes
+mail_return_empty: yes

@@ -1,0 +1,34 @@
+login_server_ip: 192.168.3.184
+char_server_ip: 192.168.3.184
+map_server_ip: 192.168.3.184
+web_server_ip: 192.168.3.184
+ipban_db_ip: 192.168.3.184
+log_db_ip: 192.168.3.184
+
+login_server_port: 3306
+char_server_port: 3306
+map_server_port: 3306
+web_server_port: 3306
+ipban_db_port: 3306
+log_db_port: 3306
+
+login_server_pw: bubble
+char_server_pw: bubble
+map_server_pw: bubble
+web_server_pw: bubble
+ipban_db_pw: bubble
+log_db_pw: bubble
+
+login_server_id: bubble
+char_server_id: bubble
+map_server_id: bubble
+web_server_id: bubble
+ipban_db_id: bubble
+log_db_id: bubble
+
+login_server_db: bubble
+char_server_db: bubble
+map_server_db: bubble
+web_server_db: bubble
+ipban_db_db: bubble
+log_db_db: bubble

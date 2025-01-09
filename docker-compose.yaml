@@ -16,11 +16,9 @@ services:
     volumes:
       - db:/var/lib/mysql
       - ./sql-files:/home/db
-    healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1"]
     network_mode: host    
   login:
-    image: bubble:1.0.5
+    image: bubble:1.0.2
     container_name: login
     restart: always
     entrypoint: bash -c /home/bubble/login-server
@@ -31,7 +29,7 @@ services:
       - mariadb
     network_mode: host
   char:
-    image: bubble:1.0.5
+    image: bubble:1.0.2
     container_name: char
     restart: always
     entrypoint: bash -c /home/bubble/char-server
@@ -43,7 +41,7 @@ services:
       - mariadb
     network_mode: host
   map:
-    image: bubble:1.0.5
+    image: bubble:1.0.2
     container_name: map
     restart: always
     entrypoint: bash -c /home/bubble/map-server
@@ -55,7 +53,7 @@ services:
       - mariadb
     network_mode: host
   web:
-    image: bubble:1.0.5
+    image: bubble:1.0.2
     container_name: api
     restart: always
     entrypoint: bash -c /home/bubble/web-server
@@ -66,6 +64,17 @@ services:
     depends_on:
       - mariadb
 
+    network_mode: host
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      PMA_HOST: 192.168.3.184
+      PMA_PORT: 3306
+      MYSQL_ROOT_PASSWORD: password
     network_mode: host
 volumes:
   db:

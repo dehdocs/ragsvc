@@ -1,0 +1,6 @@
+userid: s1
+passwd: p1
+char_ip: 192.168.3.184
+char_port: 6121
+map_ip: 192.168.3.184
+map_port: 5121

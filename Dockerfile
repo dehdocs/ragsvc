@@ -15,8 +15,10 @@ RUN apt-get update -y \
     && mkdir -p /home/bubble
 EXPOSE 6900 6121 5121
 #create user and group
-RUN useradd -ms /bin/bash bubble  && chown bubble:root /home/bubble
-USER bubble
 WORKDIR /home/bubble
 COPY . .
-RUN  ./configure --enable-packetver=20220330 && make clean && make sql
+RUN useradd -ms /bin/bash bubble  && chown -R bubble:root /home/bubble
+USER bubble
+
+
+RUN  ./configure --enable-packetver=20240614 && make clean && make sql
